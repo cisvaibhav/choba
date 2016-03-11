@@ -1,0 +1,19 @@
+{
+  "name": "vaibhav892/choba",
+  "description" : "Repo for Choba.",
+  "minimum-stability": "dev",
+  "require": {
+    "cisvaibhav/choba": "master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:cisvaibhav/choba.git"
+    }
+  ],
+    "extra":{
+      "magento-force": "override",
+      "magento-root-dir": "/",
+      "magento-deploystrategy": "link"
+  }
+}
